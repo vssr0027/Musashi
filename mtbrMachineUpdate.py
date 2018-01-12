@@ -12,7 +12,7 @@ File must be saved as CSV, and must have the headers set up specifically'''
 
 
 # Work Laptop
-db = sqlite3.connect('C:\\Users\\ryan.visser\\maintenance.db')
+db = sqlite3.connect('H:\\Projects\\maintenance.db')
 
 # Surface Pro
 # db = sqlite3.connect('C:\\Users\\ryanv\\maintenance.db')

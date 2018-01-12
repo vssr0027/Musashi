@@ -6,7 +6,7 @@ import csv
 # Create a database in RAM
 # db = sqlite3.connect(':memory:')
 # Opens a database already created
-db = sqlite3.connect('C:\\Users\\ryan.visser\\maintenance.db')
+db = sqlite3.connect('H:\\Projects\\maintenance.db')
 
 # Get a cursor object
 cursor = db.cursor()

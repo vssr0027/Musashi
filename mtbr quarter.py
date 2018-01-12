@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 script_start = time.time()
 
 # Work Laptop
-db = sqlite3.connect('C:\\Users\\ryan.visser\\maintenance.db')
+db = sqlite3.connect('H:\\Projects\\maintenance.db')
 
 # Surface Pro
 # db = sqlite3.connect('C:\\Users\\ryanv\\musashi.db')
