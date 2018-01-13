@@ -12,10 +12,10 @@ File must be saved as CSV, and must have the headers set up specifically'''
 
 
 # Work Laptop
-db = sqlite3.connect('H:\\Projects\\maintenance.db')
+# db = sqlite3.connect('H:\\Projects\\maintenance.db')
 
 # Surface Pro
-# db = sqlite3.connect('C:\\Projects\\Musashi\\maintenance.db')
+db = sqlite3.connect('C:\\Projects\\Musashi\\maintenance.db')
 
 # Get a cursor object
 cursor = db.cursor()

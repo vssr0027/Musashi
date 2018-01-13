@@ -5,8 +5,11 @@ import csv
 
 # Create a database in RAM
 # db = sqlite3.connect(':memory:')
-# Opens a database already created
-db = sqlite3.connect('H:\\Projects\\maintenance.db')
+# Work Laptop
+# db = sqlite3.connect('H:\\Projects\\maintenance.db')
+
+# Surface Pro
+db = sqlite3.connect('C:\\Projects\\Musashi\\maintenance.db')
 
 # Get a cursor object
 cursor = db.cursor()
@@ -23,7 +26,7 @@ count_add = 0
 
 # Equipment[0],Description[1],Location[2],Cost Center[3],Plant[4]
 
-with open('C:\\Users\\ryan.visser\\machine list.csv') as f:
+with open('C:\\Projects\Musashi\\machine list.csv') as f: # Change if running on work PC
         # reader = csv.reader(f)
         csvreader = csv.reader(f)
         next(csvreader)

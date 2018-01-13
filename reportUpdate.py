@@ -9,8 +9,11 @@ File must be saved as CSV, and must have the headers set up specifically'''
 
 # Create a database in RAM
 # db = sqlite3.connect(':memory:')
-# Opens a database already created
-db = sqlite3.connect('H:\\Projects\\maintenance.db')
+# Work Laptop
+# db = sqlite3.connect('H:\\Projects\\maintenance.db')
+
+# Surface Pro
+db = sqlite3.connect('C:\\Projects\\Musashi\\maintenance.db')
 
 # Get a cursor object
 cursor = db.cursor()
@@ -22,7 +25,7 @@ count_ignore = 0
 # NOTIFICATION[0] - DATE[1] - DESCRIPTION[2] - PLANT[3] - DEPARTMENT[4]
 # WORK_CENTER [5] - EQUIPMENT[6] - BREAKDOWN[7] - DOWNTIME[8] - REPORTED[10] - 
 # START_DATE[11] - START_TIME[12] - FINSIH_DATE[13] - FINISH_TIME[14]
-with open('C:\\Users\\ryan.visser\\reports.csv') as f:
+with open('C:\\Projects\\Musashi\\reports.csv') as f: # Need to change path if using on Work PC
     csvreader = csv.reader(f)
     next(csvreader)
     for row in csvreader:

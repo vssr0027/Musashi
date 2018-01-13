@@ -1,10 +1,7 @@
-import time
+proc sql;
+   title 'One and Two Joined';
+   select one.a 'One', one.b, two.a 'Two', two.b
+      from one, two
+      where one.b=two.b;
 
-
-start = time.time()
-
-
-
-# Script timer
-end = time.time()
-print(end - start)
+Make a query this way
