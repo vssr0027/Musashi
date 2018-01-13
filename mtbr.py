@@ -8,7 +8,7 @@ start = time.time()
 db = sqlite3.connect('H:\\Projects\\maintenance.db')
 
 # Surface Pro
-# db = sqlite3.connect('C:\\Users\\ryanv\\musashi.db')
+# db = sqlite3.connect('C:\\Projects\\Musashi\\maintenance.db')
 
 cursor = db.cursor()
 

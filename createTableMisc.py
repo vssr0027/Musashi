@@ -4,7 +4,7 @@ import sqlite3
 db = sqlite3.connect('H:\\Projects\\maintenance.db')
 
 # Surface Pro
-# db = sqlite3.connect('C:\\Users\\ryanv\\maintenance.db')
+# db = sqlite3.connect('C:\\Projects\\Musashi\\maintenance.db')
 cursor = db.cursor()
 
 # For making the KPI table
